@@ -37,7 +37,7 @@ public class StuStudentController extends BaseController
     {
         startPage();
         List<StuStudent> list = stuStudentService.selectStuStudentList(stuStudent);
-        System.out.println(list+"");
+        System.out.println(list+"12");
         return getDataTable(list);
     }
 
